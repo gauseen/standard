@@ -1,5 +1,5 @@
 {
-  "name": "@woolson-pack/standard",
+  "name": "@woolson/standard",
   "description": "JavaScript Standard Style",
   "version": "0.0.1",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
@@ -63,7 +63,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/standard/standard.git"
+    "url": "git@github.com:woolson/standard.git"
   },
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",

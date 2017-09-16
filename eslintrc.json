@@ -1,9 +1,28 @@
 {
   "extends": [
-      "standard",
-      "standard-jsx"
+      "standard"
+  ],
+  "plugins": [
+    "html"
   ],
   "rules": {
-    "indent": ["error", "tab"]
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "indent": [
+      "error",
+      "tab",
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-tabs": [0]
   }
 }

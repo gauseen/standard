@@ -1,13 +1,11 @@
 {
-  "name": "standard",
+  "name": "@woolson/standard",
   "description": "JavaScript Standard Style",
-  "version": "10.0.3",
-  "author": {
-    "email": "feross@feross.org",
-    "name": "Feross Aboukhadijeh",
-    "url": "http://feross.org/"
+  "version": "0.0.1",
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "bin": {
+    "standard": "./bin/cmd.js"
   },
-  "bin": "./bin/cmd.js",
   "bugs": {
     "url": "https://github.com/standard/standard/issues"
   },
@@ -77,5 +75,9 @@
     "test-offline-quick": "npm test -- --offline --quick",
     "test-quick": "npm test -- --quick",
     "update-authors": "./bin/update-authors.sh"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }

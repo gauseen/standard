@@ -2,7 +2,7 @@
   "name": "@gauseen/standard",
   "description": "JavaScript Standard Style",
   "version": "0.1.1",
-  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/) & woolson",
   "bin": {
     "standard": "./bin/cmd.js"
   },
@@ -63,7 +63,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:woolson/standard.git"
+    "url": "git@github.com:gauseen/standard.git"
   },
   "scripts": {
     "show-rules": "eslint-index eslintrc.json",

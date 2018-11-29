@@ -266,14 +266,16 @@
     var myVar = 'hello'            // ✓ ok
   ```
 
-* **不允许有多余的行末逗号**。
+* **多行对象、数组行末必须有逗号（单行不需要）**。
 
   eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle)
 
   ```js
     var obj = {
-      message: 'hello',   // ✗ avoid
+      message: 'hello',   // ✓ ok
     }
+    
+    var foo = { name: 'gauseen' }  // ✓ ok
   ```
 
 * **始终将逗号置于行末**。
